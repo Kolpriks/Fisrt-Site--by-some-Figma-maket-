@@ -1,0 +1,391 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-family: 'Istok Web', sans-serif;
+    line-height: 1;
+    font-size: 1rem;
+}
+
+header{
+    max-width: 1600px;
+    margin: auto;
+}
+
+.Upper_Header {
+    padding: 10px 10px;
+}
+
+.wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.Under_Header{
+    padding: 10px 23px; 
+}
+
+.upper_menu{
+    display: flex;
+    list-style: none;
+}
+
+.upper_menu li{
+    margin: 15px;
+}
+
+.upper_menu li a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+}
+
+.upper_menu li a:hover{
+    color:lightskyblue;
+}
+
+.container{
+    width: 1080px;
+    margin: auto;
+}
+
+/*Кнопки ниже*/
+.katalog{
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    border: 1px solid #0063B0;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 10px 30px;
+    background-color:#0063B0;
+}
+.katalog:hover{
+    background-color: #55abe9;
+    border: 1px solid #55abe9;
+}
+
+/*Строка ПОИСК ПО САЙТУ ниже*/
+.search_bar{
+    display: flex;
+}
+
+.search-txt{
+    width: 25rem;
+    border: 1px solid lightgrey;
+    border-right: none;
+    padding: 8px;
+    height: 16px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+.searchButton {
+    width: 50px;
+    height: 34px;
+    border: 1px solid #84C0EA;
+    background: #84C0EA;
+    text-align: center;
+    color: #eeeeee;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/*Кнопки лайка и карт ниже*/
+
+.union_icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.cart_icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 15px;
+}
+
+.counter_cart{
+    color:#0063B0;
+    margin: 0 5px;
+}
+
+.like_icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.counter_like{
+    color:#0063B0;
+    margin: 0 5px;
+}
+/*main photo*/
+
+.vivera_text{
+    color: white;
+    font-size: 2rem;
+    font-weight: 100;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+
+.vivera_ul{
+    color: white;
+    padding-top: 10px;
+    padding-left: 100px;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    list-style-type: none;
+}
+
+.vivera_ul li:before {
+    color: lightskyblue; 
+    font-size: 2rem;
+    content: "•"; 
+    padding-right: 10px; 
+}
+
+
+.main_image{
+    padding-right: 50px;
+    
+}
+
+.all_main{
+    background-color: #C8C9CB;
+}
+
+.button_in_main_photo{
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+/*Конец секции с большой серой фоткой*/
+
+.first_three{
+    padding-left: 100px;
+}
+
+.second_three{
+    padding-left: 100px;
+    padding-top: 10px;
+}
+
+.brands{
+    display: flex;
+    padding-top: 80px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-bottom: 100px;
+}
+
+.all_brands{
+    display: flex;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+.need_padding_arrow_brands{
+    padding-left: 20px;
+}
+
+
+/*Ниже будут описаны карточки со всей херней ЦВЕТНЫЕ*/
+/* Первая половина НИЖЕ*/
+
+.boks{
+    border-radius: 8px;
+    padding: 2px;
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    width: 190px;
+    min-height: 320px;
+    padding: 30px;
+    line-height: 1.5rem;
+}
+
+.first{
+    border: 1px solid #F98C23;
+    background-color: #F98C23;
+    border-radius: 8px;
+}
+
+.second{
+    border: 1px solid #AE8EB5;
+    background-color: #AE8EB5;
+    border-radius: 8px;
+}
+
+.third{
+    border: 1px solid #E74F4E;
+    background-color: #E74F4E;
+    border-radius: 8px;
+}
+
+.four{
+    border: 1px solid #91B450;
+    background-color: #91B450;
+    border-radius: 8px;
+}
+
+.first_four{
+    padding-bottom: 20px;
+}
+
+.zagalovok_cards{
+    font-size: 20px;
+}
+
+.cards_ul{
+    padding-top: 10px;
+    list-style-type:square;
+}
+
+/* Вторая половина НИЖЕ*/
+
+.first2{
+    border: 1px solid #EFB434;
+    background-color: #EFB434;
+    border-radius: 8px;
+}
+
+.second2{
+    border: 1px solid #0090B5;
+    background-color: #0090B5;
+    border-radius: 8px;
+}
+
+.third2{
+    border: 1px solid #8467CA;
+    background-color: #8467CA;
+    border-radius: 8px;
+}
+
+.four2{
+    border: 1px solid #C39440;
+    background-color: #C39440;
+    border-radius: 8px;
+}
+
+/* Кнопка ПОСМОТРЕТЬ ВСЕ НИЖЕ */
+
+.button_watch_all{
+    margin-bottom: 40px;
+    margin-left: 30px;
+}
+
+/*Ниже блок с карточками товара (ножницы)*/
+
+.Popular_wrap{
+    padding-top: 30px;
+}
+
+.scisors_wrap{
+    padding-top: 30px;
+}
+
+.scisors{
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.card_text{
+    text-decoration: none;
+    color: black;
+    font-weight: 200;
+    font-size: 0.8rem;
+    margin: 20px;
+}
+
+.button_v_card{
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px
+}
+
+.btn{
+    border: 1px solid #0063B0;
+    border-radius: 6px;
+    color: white;
+    text-decoration: none;
+    background-color: #0063B0;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.btn:hover{
+    background-color: #55abe9;
+    border: 1px solid #55abe9;
+}
+
+/* Ниже пойдет блок с фотографией и текстом */
+
+
+.text{
+    font-size: 1rem;
+    font-weight: 300;
+    padding-right: 100px;
+}
+
+.wrap_image_plus_button{
+    padding-top: 100px;
+}
+
+.button_download{
+    padding-top: 20px;
+}
+
+/* Footer down */
+
+.footer_wrap{
+    padding-top: 50px;
+}
+
+.txt{
+    text-decoration: none;
+    color: #333333;
+    line-height: 2.5;
+    font-weight: 200;
+    font-size: 0.8rem;
+}
+
+.txt:hover{
+    color:#0090B5;
+}
+
+.special_otstup_txt{
+    padding-top: 10px;
+}
+
+
+.all_down_wrap{
+    
+    width: 250px;
+    height: 200px;
+}
+
+.About_wrap{
+    padding-left: 50px;
+}
+
+.pad{
+    padding-top: 50px;
+}
+
+/* FOOTER */
+footer{
+    color: #333333;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
